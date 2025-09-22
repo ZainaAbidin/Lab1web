@@ -31,10 +31,32 @@ Jadi bisa dibilang alt itu wajib dipakai untuk mendeskripsikan gambar, sedangkan
 
 # 4. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
 JAWABAN:
+
 <img width="600" height="87" alt="Cuplikan layar 2025-09-22 204930" src="https://github.com/user-attachments/assets/1cb9fb75-c654-45e7-8f97-4f27d42208dd" />
 <img width="1920" height="1080" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/b6d6ed94-a1cd-4ba0-a3ff-5b193b290279" />
 Penjelasan:
 Dalam tag (img), atribut width dan height digunakan untuk mengatur ukuran gambar di halaman web. Nah, supaya tampilan gambar tetap proporsional (tidak gepeng atau melebar aneh), sebaiknya cukup mengisi salah satu atribut saja, biasanya width.
+
 Kenapa begitu?
-1. Kalau kamu mengisi kedua atribut sekaligus dengan nilai yang tidak sesuai perbandingan asli gambar (aspect ratio), maka gambar bisa terlihat terdistorsi (entah jadi gepeng atau melebar).
+1. Kalau kamu mengisi kedua atribut sekaligus dengan nilai yang tidak sesuai perbandingan asli gambar (aspect ratio), maka gambar bisa terlihat terdistorsi
+(entah jadi gepeng atau melebar)
 2. Kalau kamu hanya mengisi satu atribut (misalnya width saja), maka browser otomatis akan menyesuaikan ukuran atribut lainnya agar rasio gambar tetap terjaga.
+
+
+# 5. Pada link tambahkan atribut target dengan nilai atribut bervariasi ( _blank, _self, _top, _parent ), apa yang terjadi pada masing-masing nilai antribut tersebut?
+JAWABAN:
+
+<img width="883" height="254" alt="Cuplikan layar 2025-09-22 210817" src="https://github.com/user-attachments/assets/257e3fd4-ef70-4b89-bf39-17761e1738eb" />
+<img width="1920" height="1080" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/b2bd9621-90f9-4cd6-acc4-2117eac4f3f6" />
+
+Penjelasan:
+1. Atribut target="_self" berfungsi menampilkan halaman tujuan pada jendela atau tab yang sedang digunakan. Dengan kata lain,
+halaman lama akan digantikan oleh halaman baru. Karena menjadi nilai bawaan, penggunaan atribut ini bisa ditulis atau bahkan dihilangkan tanpa mengubah perilaku link.
+2. Atribut target="_blank" akan membuka link di jendela atau tab baru pada browser. Cara ini memungkinkan pengguna tetap
+mempertahankan halaman asal tetap terbuka, sementara halaman baru tampil secara terpisah. Biasanya opsi ini digunakan untuk mengarahkan pengguna ke situs lain tanpa menutup halaman utama.
+3. Atribut target="_top" digunakan untuk menampilkan halaman tujuan pada seluruh jendela browser. Pengaturan ini umumnya
+bermanfaat saat halaman berada dalam frame atau iframe, karena link akan keluar dari frame dan menampilkan halaman
+secara penuh. Namun, jika tidak ada frame, hasilnya sama dengan membuka di halaman yang sama.
+4. Atribut target="_parent" berfungsi membuka link pada induk frame dari halaman yang sedang dibuka.
+Jika link ada di dalam iframe, maka halaman tujuan akan menggantikan isi induk dari iframe tersebut. Tetapi,
+bila tidak ada struktur frame, efeknya akan serupa dengan _self.
