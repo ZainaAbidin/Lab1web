@@ -18,3 +18,23 @@ Penjelasan: Pada halaman HTML tersebut, terlihat bahwa peralihan baris teks meng
 Perbedaan mendasarnya dengan (p) adalah, (p) menghasilkan sebuah blok teks yang memiliki spasi otomatis di atas dan bawah,
 sehingga terlihat lebih rapi sebagai sebuah paragraf. Sedangkan (br) hanya memutus baris, sehingga teks tampak lebih rapat tanpa ada jarak tambahan. Karena itu, (br) biasanya dipakai untuk pemisah baris yang sifatnya singkat, misalnya dalam penulisan alamat, puisi, atau data yang memang butuh jeda baris, bukan untuk membuat paragraf panjang.
 Dengan kata lain, penggunaan (br) dalam contoh ini menjadikan teks lebih padat dan berkesan “langsung turun ke baris berikutnya”, berbeda dengan (p) yang menampilkan teks dalam bentuk paragraf utuh.
+
+
+# 3. Apa perbedaan atribut title dan alt pada tag (im)>, berikan penjelasannya!
+JAWABAN:
+<img width="1920" height="1080" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/3aaa7133-efdc-4594-a689-1f1f98508320" />
+Penjelasannya: 
+- alt → teks pengganti gambar (ditampilkan jika gambar gagal dimuat, penting untuk SEO & aksesibilitas).
+- title → teks keterangan tambahan (muncul sebagai tooltip saat mouse diarahkan ke gambar).
+Jadi bisa dibilang alt itu wajib dipakai untuk mendeskripsikan gambar, sedangkan title lebih bersifat opsional untuk memberi info tambahan.
+
+
+# 4. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
+JAWABAN:
+<img width="600" height="87" alt="Cuplikan layar 2025-09-22 204930" src="https://github.com/user-attachments/assets/1cb9fb75-c654-45e7-8f97-4f27d42208dd" />
+<img width="1920" height="1080" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/b6d6ed94-a1cd-4ba0-a3ff-5b193b290279" />
+Penjelasan:
+Dalam tag (img), atribut width dan height digunakan untuk mengatur ukuran gambar di halaman web. Nah, supaya tampilan gambar tetap proporsional (tidak gepeng atau melebar aneh), sebaiknya cukup mengisi salah satu atribut saja, biasanya width.
+Kenapa begitu?
+1. Kalau kamu mengisi kedua atribut sekaligus dengan nilai yang tidak sesuai perbandingan asli gambar (aspect ratio), maka gambar bisa terlihat terdistorsi (entah jadi gepeng atau melebar).
+2. Kalau kamu hanya mengisi satu atribut (misalnya width saja), maka browser otomatis akan menyesuaikan ukuran atribut lainnya agar rasio gambar tetap terjaga.
