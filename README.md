@@ -6,11 +6,11 @@ Penjelasan: Sudah dilakukan perubahan pada tag, dan hasilnya kode tidak error
 
 # 2. Apa perbedaan dari tag <p> dengan tag <br>, berikan penjelasannya!
 JAWABAN:
-TAG <p>
+TAG <P>
 <img width="1920" height="1080" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/3daf1117-85de-4265-b407-95c48bec0c7e" />
-Penjelasan: Halaman HTML yang dibuat menampilkan struktur sederhana dengan memanfaatkan tag judul dan paragraf. Pada bagian atas digunakan tag <h1> sebagai judul utama, sehingga teks tampil besar dan jelas. Setelah itu, kalimat pengantar diletakkan di dalam tag <p>, yang otomatis menampilkan teks dalam bentuk paragraf rapi. 
-Selanjutnya, tag <h2> dipakai untuk membuat subjudul, diikuti paragraf panjang yang menjelaskan definisi dan fungsi HTML.
-Penggunaan kombinasi <h1>, <h2>, dan <p> membantu menyusun isi halaman agar terstruktur dengan baik. Judul berfungsi memberi penekanan pada topik utama, subjudul menandai bagian penjelasan, sedangkan paragraf memisahkan teks sehingga lebih mudah dibaca dan dipahami.
+Penjelasan: Halaman HTML yang dibuat menampilkan struktur sederhana dengan memanfaatkan tag judul dan paragraf. Pada bagian atas digunakan tag <H1> sebagai judul utama, sehingga teks tampil besar dan jelas. Setelah itu, kalimat pengantar diletakkan di dalam tag <P>, yang otomatis menampilkan teks dalam bentuk paragraf rapi. 
+Selanjutnya, tag <H2> dipakai untuk membuat subjudul, diikuti paragraf panjang yang menjelaskan definisi dan fungsi HTML.
+Penggunaan kombinasi <H1>, <H2>, dan <p> membantu menyusun isi halaman agar terstruktur dengan baik. Judul berfungsi memberi penekanan pada topik utama, subjudul menandai bagian penjelasan, sedangkan paragraf memisahkan teks sehingga lebih mudah dibaca dan dipahami.
 
 TAG <br>
 <img width="1920" height="1080" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/80bdd786-dcdb-4767-9829-8eae4003c720" />
