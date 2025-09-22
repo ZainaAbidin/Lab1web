@@ -4,7 +4,7 @@ JAWABAN:
 Penjelasan: Sudah dilakukan perubahan pada tag, dan hasilnya kode tidak error
 
 
-# 2. Apa perbedaan dari tag <p> dengan tag <br>, berikan penjelasannya!
+# 2. Apa perbedaan dari tag (p) dengan tag (br), berikan penjelasannya!
 JAWABAN:
 TAG <P>
 <img width="1920" height="1080" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/3daf1117-85de-4265-b407-95c48bec0c7e" />
